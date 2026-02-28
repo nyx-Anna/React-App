@@ -1,8 +1,11 @@
 //Importing the Counter component from components folder.
 import Counter from "./components/Counter";
 
-//Importing the Form component from components folder.–
+//Importing the Form component from components folder.
 import Form from "./components/Form";
+
+//Importing the List component from components folder.
+import List from "./components/List";
 
 function App() {
   return (
@@ -23,8 +26,13 @@ function App() {
 
       <Counter title="Simple Counter C" initialValue={100} />
 
-      {/* Here are rendering form components */}
+<hr />
+      {/* Here are rendering form component and List component */}
       <Form />
+
+      <hr />
+      
+      <List />
     </div>
   );
 }
