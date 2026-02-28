@@ -7,6 +7,10 @@ import Form from "./components/Form";
 //Importing the List component from components folder.
 import List from "./components/List";
 
+//Importing the TodoApp component from components folder.
+import TodoApp from "./components/TodoApp";
+
+
 function App() {
   return (
     //this is the root cointainer.
@@ -33,6 +37,10 @@ function App() {
       <hr />
       
       <List />
+
+      <hr />
+
+      <TodoApp />
     </div>
   );
 }
