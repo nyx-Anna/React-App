@@ -60,7 +60,7 @@ function TodoApp() {
       {/* Button to add todo */}
       <button onClick={addTodo}>Add</button>
 
-      <hr />
+      <br />
 
       {/* If no todos */}
       {todos.length === 0 && <p>No tasks yet...</p>}
