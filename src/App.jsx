@@ -10,6 +10,9 @@ import List from "./components/List";
 //Importing the TodoApp component from components folder.
 import TodoApp from "./components/TodoApp";
 
+//Importing the UserAPI component from components folder.
+import Users from "./components/Users";
+
 
 function App() {
   return (
@@ -41,6 +44,10 @@ function App() {
       <hr />
 
       <TodoApp />
+
+      <hr />
+
+      <Users />
     </div>
   );
 }
