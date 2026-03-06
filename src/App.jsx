@@ -10,7 +10,7 @@ import List from "./components/List";
 //Importing the TodoApp component from components folder.
 import TodoApp from "./components/TodoApp";
 
-//Importing the UserAPI component from components folder.
+//Importing the Users component from components folder.
 import Users from "./components/Users";
 
 
